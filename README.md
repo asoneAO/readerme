@@ -2,6 +2,7 @@
 
 一个ios上的小说阅读器。
 
+支持 ios16+,可巨魔可自签。
 可wifi导入txt,epub,mobi.
 
 ---
