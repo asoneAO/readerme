@@ -13,7 +13,7 @@
 https://www.yckceo.com/yuedu/shuyuan/json/id/6965.json
 ```
 ```
-https://www.yckceo.com/yuedu/shuyuan/json/id/6965.json
+https://www.yckceo.com/yuedu/shuyuan/json/id/6949.json
 ```
 ```
 https://www.yckceo.com/yuedu/shuyuan/json/id/7018.json
@@ -26,5 +26,6 @@ https://www.yckceo.com/yuedu/shuyuan/json/id/4810.json
 ## 其他
 
 - 8888 fanqienovel
+- 初步支持漫画 自动识别是否漫画
 - 书源规则兼容目标参考 Legado / 阅读 3.0 生态
 - 部分复杂书源仍在持续增强兼容中
