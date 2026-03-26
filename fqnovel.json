@@ -1,0 +1,44 @@
+{
+  "enabled" : true,
+  "enabledCookieJar" : true,
+  "enabledExplore" : true,
+  "exploreURLTemplate" : "热门::\/api\/fanqie\/books?category_url=热门&page={{page}}\n玄幻::\/api\/fanqie\/books?category_url=xuanhuan&page={{page}}\n言情::\/api\/fanqie\/books?category_url=yanqing&page={{page}}\n都市::\/api\/fanqie\/books?category_url=dushi&page={{page}}\n历史::\/api\/fanqie\/books?category_url=lishi&page={{page}}\n科幻::\/api\/fanqie\/books?category_url=kehuan&page={{page}}",
+  "group" : "API",
+  "id" : "59BD53B5-638B-4932-B7BE-0702077E0EBF",
+  "importURL" : "https:\/\/127.0.0.1\/d\/978bfabb-fc81-4559-8c0d-c3bcf1f829d5",
+  "name" : "番茄小说",
+  "note" : "对接 asoneapi 的番茄接口。请把地址改成你的服务地址（如 http:\/\/<host>:7778），并在后台把 ReaderMe 生成的 X-API-Token 加入允许列表。",
+  "priority" : 12,
+  "requiresAPIToken" : true,
+  "respondTime" : 15000,
+  "ruleContent" : {
+    "content" : "@Json:$.data.content"
+  },
+  "ruleExplore" : {
+    "author" : "@Json:$.author",
+    "bookList" : "@Json:$.data.items[*]",
+    "bookURL" : "@Json:$.id@js:'\/api\/fanqie\/books\/' + result + '\/chapters'",
+    "checkKeyWord" : "\"ok\":true",
+    "coverURL" : "@Json:$.cover_url",
+    "intro" : "@Json:$.description",
+    "name" : "@Json:$.title"
+  },
+  "ruleSearch" : {
+    "author" : "@Json:$.author",
+    "bookList" : "@Json:$.data.items[*]",
+    "bookURL" : "@Json:$.id@js:'\/api\/fanqie\/books\/' + result + '\/chapters'",
+    "checkKeyWord" : "\"ok\":true",
+    "coverURL" : "@Json:$.cover_url",
+    "intro" : "@Json:$.description",
+    "name" : "@Json:$.title"
+  },
+  "ruleToc" : {
+    "chapterList" : "@Json:$.data.items[*]",
+    "chapterName" : "@Json:$.title",
+    "chapterURL" : "@Json:$.url"
+  },
+  "searchURLTemplate" : "\/api\/fanqie\/books?category_url={{key}}&page={{page}}",
+  "sourceType" : 0,
+  "url" : "http:\/\/127.0.0.1:7778",
+  "weight" : 12
+}
