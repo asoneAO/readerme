@@ -1,0 +1,53 @@
+{
+  "enabled" : true,
+  "enabledCookieJar" : true,
+  "enabledExplore" : true,
+  "exploreURLTemplate" : "热门::\/api\/manga\/hot?page={{page}}\n最新::\/api\/manga\/comics?page={{page}}\n最新::\/api\/manga\/comics?page={{page}}\n总点击榜::\/api\/manga\/comics?sort=mv\n月榜::\/api\/manga\/comics?sort=mv&period=m\n周榜::\/api\/manga\/comics?sort=mv&period=w\n日榜::\/api\/manga\/comics?sort=mv&period=d\n无修正::\/api\/manga\/search?q=无修正&page={{page}}",
+  "group" : "api",
+  "id" : "F4E7C71A-827E-47F7-90F1-FFD7FCC43552",
+  "importURL" : "https:\/\/127.0.0.1\/d\/ba1c62cc-60e7-4e0a-b5d0-9a3de6de1c43",
+  "name" : " 禁漫天堂",
+  "note" : "禁漫天堂 MangaAPI 书源。请在编辑书源时把地址改成你自己的 API 服务地址，并在服务端允许列表中加入设置页生成的 X-API-Token。",
+  "priority" : 8,
+  "requiresAPIToken" : true,
+  "respondTime" : 8000,
+  "ruleBookInfo" : {
+    "author" : "@Json:$.data.authors[*]",
+    "coverURL" : "@Json:$.data.cover_url",
+    "intro" : "@Json:$.data.description",
+    "kind" : "@Json:$.data.tags[*]",
+    "name" : "@Json:$.data.title"
+  },
+  "ruleContent" : {
+    "content" : "@Json:$.data.content_html"
+  },
+  "ruleExplore" : {
+    "author" : "@Json:$.authors[*]",
+    "bookList" : "@Json:$.data.items[*]",
+    "bookURL" : "@Json:$.detail_url",
+    "checkKeyWord" : "\"ok\":true",
+    "coverURL" : "@Json:$.cover_url",
+    "intro" : "@Json:$.tags[*]",
+    "kind" : "@Json:$.tags[*]",
+    "name" : "@Json:$.title"
+  },
+  "ruleSearch" : {
+    "author" : "@Json:$.authors[*]",
+    "bookList" : "@Json:$.data.items[*]",
+    "bookURL" : "@Json:$.detail_url",
+    "checkKeyWord" : "\"ok\":true",
+    "coverURL" : "@Json:$.cover_url",
+    "intro" : "@Json:$.tags[*]",
+    "kind" : "@Json:$.tags[*]",
+    "name" : "@Json:$.title"
+  },
+  "ruleToc" : {
+    "chapterList" : "@Json:$.data.chapters[*]",
+    "chapterName" : "@Json:$.title",
+    "chapterURL" : "@Json:$.read_url"
+  },
+  "searchURLTemplate" : "\/api\/manga\/search?q={{key}}&page={{page}}",
+  "sourceType" : 2,
+  "url" : "http:\/\/127.0.0.1:7778",
+  "weight" : 8
+}
