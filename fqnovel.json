@@ -1,44 +1,44 @@
 {
-  "enabled" : true,
-  "enabledCookieJar" : true,
-  "enabledExplore" : true,
-  "exploreURLTemplate" : "热门::\/api\/fanqie\/books?category_url=热门&page={{page}}\n玄幻::\/api\/fanqie\/books?category_url=xuanhuan&page={{page}}\n言情::\/api\/fanqie\/books?category_url=yanqing&page={{page}}\n都市::\/api\/fanqie\/books?category_url=dushi&page={{page}}\n历史::\/api\/fanqie\/books?category_url=lishi&page={{page}}\n科幻::\/api\/fanqie\/books?category_url=kehuan&page={{page}}",
-  "group" : "API",
-  "id" : "59BD53B5-638B-4932-B7BE-0702077E0EBF",
-  "importURL" : "https:\/\/127.0.0.1\/d\/978bfabb-fc81-4559-8c0d-c3bcf1f829d5",
-  "name" : "番茄小说",
-  "note" : "对接 asoneapi 的番茄接口。请把地址改成你的服务地址（如 http:\/\/<host>:7778），并在后台把 ReaderMe 生成的 X-API-Token 加入允许列表。",
-  "priority" : 12,
-  "requiresAPIToken" : true,
-  "respondTime" : 15000,
-  "ruleContent" : {
-    "content" : "@Json:$.data.content"
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "exploreURLTemplate": "热门::/api/fanqie/books?category_url=热门&page={{page}}\n玄幻::/api/fanqie/books?category_url=xuanhuan&page={{page}}\n言情::/api/fanqie/books?category_url=yanqing&page={{page}}\n都市::/api/fanqie/books?category_url=dushi&page={{page}}\n历史::/api/fanqie/books?category_url=lishi&page={{page}}\n科幻::/api/fanqie/books?category_url=kehuan&page={{page}}\n男-西方奇幻::/api/fanqie/ranks?gender=1&board=2&category_id=1141\n男-东方仙侠::/api/fanqie/ranks?gender=1&board=2&category_id=1140\n男-科幻末世::/api/fanqie/ranks?gender=1&board=2&category_id=8\n男-都市日常::/api/fanqie/ranks?gender=1&board=2&category_id=261\n男-都市修真::/api/fanqie/ranks?gender=1&board=2&category_id=124\n男-都市高武::/api/fanqie/ranks?gender=1&board=2&category_id=1014\n男-历史古代::/api/fanqie/ranks?gender=1&board=2&category_id=273\n男-战神赘婿::/api/fanqie/ranks?gender=1&board=2&category_id=27\n男-都市种田::/api/fanqie/ranks?gender=1&board=2&category_id=263\n男-传统玄幻::/api/fanqie/ranks?gender=1&board=2&category_id=258\n男-历史脑洞::/api/fanqie/ranks?gender=1&board=2&category_id=272\n男-悬疑脑洞::/api/fanqie/ranks?gender=1&board=2&category_id=539\n男-都市脑洞::/api/fanqie/ranks?gender=1&board=2&category_id=262\n男-玄幻脑洞::/api/fanqie/ranks?gender=1&board=2&category_id=257\n男-悬疑灵异::/api/fanqie/ranks?gender=1&board=2&category_id=751\n男-抗战谍战::/api/fanqie/ranks?gender=1&board=2&category_id=504\n男-游戏体育::/api/fanqie/ranks?gender=1&board=2&category_id=746\n男-动漫衍生::/api/fanqie/ranks?gender=1&board=2&category_id=718\n男-男频衍生::/api/fanqie/ranks?gender=1&board=2&category_id=1016\n女-古风世情::/api/fanqie/ranks?gender=0&board=2&category_id=1139\n女-科幻末世::/api/fanqie/ranks?gender=0&board=2&category_id=8\n女-游戏体育::/api/fanqie/ranks?gender=0&board=2&category_id=746\n女-女频衍生::/api/fanqie/ranks?gender=0&board=2&category_id=1015\n女-玄幻言情::/api/fanqie/ranks?gender=0&board=2&category_id=248\n女-种田::/api/fanqie/ranks?gender=0&board=2&category_id=23\n女-年代::/api/fanqie/ranks?gender=0&board=2&category_id=79\n女-现言脑洞::/api/fanqie/ranks?gender=0&board=2&category_id=267\n女-宫斗宅斗::/api/fanqie/ranks?gender=0&board=2&category_id=246\n女-悬疑脑洞::/api/fanqie/ranks?gender=0&board=2&category_id=539\n女-古言脑洞::/api/fanqie/ranks?gender=0&board=2&category_id=253\n女-快穿::/api/fanqie/ranks?gender=0&board=2&category_id=24\n女-青春甜宠::/api/fanqie/ranks?gender=0&board=2&category_id=749\n女-星光璀璨::/api/fanqie/ranks?gender=0&board=2&category_id=745\n女-女频悬疑::/api/fanqie/ranks?gender=0&board=2&category_id=747\n女-职场婚恋::/api/fanqie/ranks?gender=0&board=2&category_id=750\n女-豪门总裁::/api/fanqie/ranks?gender=0&board=2&category_id=748\n女-民国言情::/api/fanqie/ranks?gender=0&board=2&category_id=1017",
+  "group": "自建API",
+  "id": "59BD53B5-638B-4932-B7BE-0702077E0EBF",
+  "importURL": "https://127.0.0.1",
+  "name": "番茄小说",
+  "note": "对接 asoneapi 的番茄接口。请把地址改成你的服务地址（如 http://<host>:7778），并在后台把 ReaderMe 生成的 X-API-Token 加入允许列表。",
+  "priority": 12,
+  "requiresAPIToken": true,
+  "respondTime": 15000,
+  "ruleContent": {
+    "content": "@Json:$.data.content"
   },
-  "ruleExplore" : {
-    "author" : "@Json:$.author",
-    "bookList" : "@Json:$.data.items[*]",
-    "bookURL" : "@Json:$.id@js:'\/api\/fanqie\/books\/' + result + '\/chapters'",
-    "checkKeyWord" : "\"ok\":true",
-    "coverURL" : "@Json:$.cover_url",
-    "intro" : "@Json:$.description",
-    "name" : "@Json:$.title"
+  "ruleExplore": {
+    "author": "@Json:$.author",
+    "bookList": "@Json:$.data.items[*]",
+    "bookURL": "@Json:$.url||$.book_url",
+    "checkKeyWord": "\"ok\":true",
+    "coverURL": "@Json:$.cover_url",
+    "intro": "@Json:$.description",
+    "name": "@Json:$.title"
   },
-  "ruleSearch" : {
-    "author" : "@Json:$.author",
-    "bookList" : "@Json:$.data.items[*]",
-    "bookURL" : "@Json:$.id@js:'\/api\/fanqie\/books\/' + result + '\/chapters'",
-    "checkKeyWord" : "\"ok\":true",
-    "coverURL" : "@Json:$.cover_url",
-    "intro" : "@Json:$.description",
-    "name" : "@Json:$.title"
+  "ruleSearch": {
+    "author": "@Json:$.author",
+    "bookList": "@Json:$.data.items[*]",
+    "bookURL": "@Json:$.url||$.book_url",
+    "checkKeyWord": "\"ok\":true",
+    "coverURL": "@Json:$.cover_url",
+    "intro": "@Json:$.description",
+    "name": "@Json:$.title"
   },
-  "ruleToc" : {
-    "chapterList" : "@Json:$.data.items[*]",
-    "chapterName" : "@Json:$.title",
-    "chapterURL" : "@Json:$.url"
+  "ruleToc": {
+    "chapterList": "@Json:$.data.items[*]",
+    "chapterName": "@Json:$.title",
+    "chapterURL": "@Json:$.url"
   },
-  "searchURLTemplate" : "\/api\/fanqie\/books?category_url={{key}}&page={{page}}",
-  "sourceType" : 0,
-  "url" : "http:\/\/127.0.0.1:7778",
-  "weight" : 12
+  "searchURLTemplate": "/api/fanqie/books?category_url={{key}}&page={{page}}",
+  "sourceType": 0,
+  "url": "http://127.0.0.1:7778",
+  "weight": 12
 }
