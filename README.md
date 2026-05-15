@@ -6,6 +6,8 @@
 可wifi导入txt,epub,mobi.
 
 ---
+## 界面预览
+![截图](screenshots/1.png) | ![截图](screenshots/2.png)
 
 ## 推荐书源
 
