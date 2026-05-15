@@ -7,8 +7,7 @@
 
 ---
 ## 界面预览
-![截图](screenshots/1.png) | ![截图](screenshots/2.png)
-
+<img src="screenshots/1.png" width="300"> <img src="screenshots/2.png" width="300">
 ## 推荐书源
 
 ```
