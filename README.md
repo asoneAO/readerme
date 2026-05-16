@@ -9,7 +9,9 @@
 ## 界面预览
 <img src="screenshots/1.png" width="300"> <img src="screenshots/2.png" width="300"> <img src="screenshots/3.png" width="300">
 ## 推荐书源
-
+```
+https://www.yckceo.com/yuedu/shuyuan/json/id/6645.json
+```
 ```
 https://www.yckceo.com/yuedu/shuyuan/json/id/6965.json
 ```
